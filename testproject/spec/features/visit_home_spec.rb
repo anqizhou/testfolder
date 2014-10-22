@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-feature 'Visit the image uploader' do
+feature 'Visit home page' do
   scenario 'Hello World!' do
     visit '/'
-    expect(page).to have_content 'Image Uploader!'
+    expect(page).to have_content 'Hello World!!'
   end
 end
